@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Integradora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1cf8a56aaef558796cbf5c2da7f27b1f7a2495c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0483c299fef73516d8e110f1d6b6f99430e54db5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Integradora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Integradora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

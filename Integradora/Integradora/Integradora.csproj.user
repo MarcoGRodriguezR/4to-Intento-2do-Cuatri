@@ -7,7 +7,22 @@
     <Compile Update="MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Prodcuts\Inventory\Products_Inventory_Menu.cs">
+    <Compile Update="Products\Inventory\Products_Inventory_AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Products\Inventory\Products_Inventory_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Products\Inventory\Products_Inventory_ModifyName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Products\Inventory\Products_Inventory_ModifyPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Products\Inventory\Products_Inventory_ModifyUnits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Products\Inventory\Products_Inventory_RemoveProduct.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

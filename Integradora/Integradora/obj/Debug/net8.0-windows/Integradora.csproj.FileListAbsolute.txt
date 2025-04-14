@@ -32,3 +32,9 @@ C:\Users\DELL\Documents\Tareas\2-do Cuatrimestre\Integradora\Pruebas\Prueba4\4to
 C:\Users\DELL\Documents\Tareas\2-do Cuatrimestre\Integradora\Pruebas\Prueba4\4to-Intento-2do-Cuatri\Integradora\Integradora\obj\Debug\net8.0-windows\Integradora.csproj.AssemblyReference.cache
 C:\Users\DELL\Documents\Tareas\2-do Cuatrimestre\Integradora\Pruebas\Prueba4\4to-Intento-2do-Cuatri\Integradora\Integradora\obj\Debug\net8.0-windows\Integradora.MasterMind.resources
 C:\Users\DELL\Documents\Tareas\2-do Cuatrimestre\Integradora\Pruebas\Prueba4\4to-Intento-2do-Cuatri\Integradora\Integradora\obj\Debug\net8.0-windows\Integrad.AAA0C13B.Up2Date
+C:\Users\DELL\Documents\Tareas\2-do Cuatrimestre\Integradora\Pruebas\Prueba4\4to-Intento-2do-Cuatri\Integradora\Integradora\obj\Debug\net8.0-windows\Integradora.sourcelink.json
+C:\Users\DELL\Documents\Tareas\2-do Cuatrimestre\Integradora\Pruebas\Prueba4\4to-Intento-2do-Cuatri\Integradora\Integradora\obj\Debug\net8.0-windows\Integradora.Products.Inventory.Products_Inventory_AddProduct.resources
+C:\Users\DELL\Documents\Tareas\2-do Cuatrimestre\Integradora\Pruebas\Prueba4\4to-Intento-2do-Cuatri\Integradora\Integradora\obj\Debug\net8.0-windows\Integradora.Products.Inventory.Products_Inventory_ModifyUnits.resources
+C:\Users\DELL\Documents\Tareas\2-do Cuatrimestre\Integradora\Pruebas\Prueba4\4to-Intento-2do-Cuatri\Integradora\Integradora\obj\Debug\net8.0-windows\Integradora.Products.Inventory.Products_Inventory_RemoveProduct.resources
+C:\Users\DELL\Documents\Tareas\2-do Cuatrimestre\Integradora\Pruebas\Prueba4\4to-Intento-2do-Cuatri\Integradora\Integradora\obj\Debug\net8.0-windows\Integradora.Products.Inventory.Products_Inventory_ModifyPrice.resources
+C:\Users\DELL\Documents\Tareas\2-do Cuatrimestre\Integradora\Pruebas\Prueba4\4to-Intento-2do-Cuatri\Integradora\Integradora\obj\Debug\net8.0-windows\Integradora.Products.Inventory.Products_Inventory_ModifyName.resources

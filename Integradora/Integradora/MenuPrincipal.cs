@@ -3,6 +3,9 @@ using Integradora.Electronics.Inventory;
 
 namespace Integradora
 {
+    /// <summary>
+    /// The Main Menu, but Master Mind sounds cooler
+    /// </summary>
     public partial class MasterMind : Form
     {
         /// <summary>

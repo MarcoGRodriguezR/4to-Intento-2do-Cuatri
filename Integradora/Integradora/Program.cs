@@ -2,9 +2,26 @@ using System.Data.SQLite;
 using static System.Collections.Specialized.BitVector32;
 using System.Xml.Linq;
 
+using Integradora.Products.Manager;
+using Integradora.Electronics.Manager;
+
 namespace Integradora;
 internal static class Program
 {
+    public static readonly Products_Manager _Products_Manager = new ();
+    public static readonly Electronics_Resistance_Manager _Resistance_Manager = new();
+    public static readonly Electronics_Capacitor_Manager _Capacitor_Manager = new();
+
+    public class TableNames
+    {
+        public const string Products = "Products";
+        
+        public class Electronics
+        {
+            public const string Resistances = "Resistances", Capacitors = "Capacitors";
+        }
+    }
+
     /// <summary>
     ///  The main entry point for the application.
     /// </summary>
@@ -13,9 +30,51 @@ internal static class Program
     {
         ApplicationConfiguration.Initialize();
         Application.Run(new MasterMind());
-
-
     }
+
+    /// <summary>
+    /// Used to check if <paramref name="text"/> can be converted into <see cref="int"/>
+    /// </summary>
+    /// <param name="text"></param>
+    /// <returns>true if it can, false if it can't</returns>
+    public static bool TestTextToINT(ref TextBox text)
+    {
+        try
+        {
+            int test = int.Parse(text.Text);
+            return true;
+        }
+        catch
+        {
+            text.Text = "";
+            return false;
+        }
+    }
+    /// <summary>
+    /// Used to check if <paramref name="text"/> can be converted into <see cref="double"/>
+    /// </summary>
+    /// <param name="text"></param>
+    /// <returns>true if it can, false if it can't</returns>
+    public static bool TestTextToDOUBLE(ref TextBox text)
+    {
+        try
+        {
+            double test = double.Parse(text.Text);
+            return true;
+        }
+        catch
+        {
+            text.Text = "";
+            return false;
+        }
+    }
+
+    /// <summary>
+    /// Used to check if <paramref name="test"/> is empty or null
+    /// </summary>
+    /// <param name="test"></param>
+    /// <returns>returns true if it's not empty or null, false if it is empty or null</returns>
+    public static bool TestTextToSTRING(ref TextBox test) => !(test.Text is null or "");
 }
 
 /// <summary>
