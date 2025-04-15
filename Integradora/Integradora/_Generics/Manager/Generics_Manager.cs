@@ -29,7 +29,7 @@ namespace Integradora._Generics.Manager
         /// <summary>
         /// <b>These CAN NOT be used when displaying text, as it isn't translated</b>
         /// </summary>
-        protected class Elements_Properties
+        public class Elements_Properties
         {
             public const string Name = "Name", ID = "ID", Units = "Units", Sales = "Sales", Price = "Price";
         }
@@ -42,7 +42,7 @@ namespace Integradora._Generics.Manager
         /// <param name="id">unique to each product</param>
         /// <param name="units"></param>
         /// <param name="sales">Total sales</param>
-        public abstract class Element(string name, int units = 0, int sales = 0, int id = 0, double price = 0.00)
+        public class Element(string name, int units = 0, int sales = 0, int id = 0, double price = 0.00)
         {
             /// <summary>
             /// <b>Should be in spanish</b>
@@ -80,13 +80,13 @@ namespace Integradora._Generics.Manager
                     int antiDecimal = (int)Value;
                     string prefix = "hmm";
                     decimal amount = Value;
+                    int divideByHowMuch = 0;
                     #endregion
 
                     #region Positive prefixes
                     if (antiDecimal > 0)
                     {
                         string valueButText = antiDecimal.ToString();
-                        int divideByHowMuch = 0;
 
                         switch (valueButText.Length)
                         {
@@ -136,9 +136,71 @@ namespace Integradora._Generics.Manager
                                 break;
                         }
 
-                        amount /= (decimal)Math.Pow(10, divideByHowMuch);
                     }
                     #endregion
+
+                    #region
+                    else
+                    {
+                        string textBUTOBSELETE = Value.ToString();
+                        string textBUTREAL = textBUTOBSELETE.Substring(textBUTOBSELETE.IndexOf('.') + 1);
+
+                        int howManyCeroes = 1;
+                        foreach (char c in textBUTREAL)
+                        {
+                            if (!char.IsDigit(c)) throw new Exception($"{c} is not a number");
+
+                            if (c == '0') howManyCeroes++;
+                            else if (char.IsDigit(c)) break;
+                        }
+
+                        switch (howManyCeroes)
+                        {
+                            case <= 1:
+                                prefix = "d";
+                                divideByHowMuch = -1;
+                                break;
+                            case 2:
+                                prefix = "c";
+                                divideByHowMuch = -2;
+                                break;
+                            case 3: case 4: case 5:
+                                prefix = "m";
+                                divideByHowMuch = -3;
+                                break;
+                            case 6: case 7: case 8:
+                                prefix = "µ";
+                                divideByHowMuch = -6;
+                                break;
+                            case 9: case 10: case 11:
+                                prefix = "n";
+                                divideByHowMuch = -9;
+                                break;
+                            case 12: case 13: case 14:
+                                prefix = "p";
+                                divideByHowMuch = -12;
+                                break;
+                            case 15: case 16: case 17:
+                                prefix = "f";
+                                divideByHowMuch = -15;
+                                break;
+                            case 18: case 19: case 20:
+                                prefix = "a";
+                                divideByHowMuch = -18;
+                                break;
+                            case 21: case 22: case 23:
+                                prefix = "z";
+                                divideByHowMuch = -21;
+                                break;
+                            default:
+                                prefix = "y";
+                                divideByHowMuch = -24;
+                                break;
+                        }
+                    }
+                    #endregion
+
+                    amount /= (decimal)Math.Pow(10, divideByHowMuch);
 
                     return $"{amount}{prefix}{Symbol}";
                 }
@@ -200,7 +262,7 @@ namespace Integradora._Generics.Manager
         protected abstract void ClearElementsList();
         #endregion
 
-        #region Update Database
+         #region Update Database
         public void UpdateDataBase()
         {
             if (!File.Exists(DataBaseManager.DB_Path)) throw new Exception();

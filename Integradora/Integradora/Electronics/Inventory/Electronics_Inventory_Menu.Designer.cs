@@ -33,6 +33,12 @@
             ElectronicsLBL = new Label();
             ElectronicsCMBOX = new ComboBox();
             MainText = new RichTextBox();
+            AddElectronicBTN = new Button();
+            RemElectronicBTN = new Button();
+            ModUnitsBTN = new Button();
+            ModPriceBTN = new Button();
+            ModNameBTN = new Button();
+            ModPropertiesBTN = new Button();
             SuspendLayout();
             // 
             // ElectronicTypesLBL
@@ -84,15 +90,87 @@
             MainText.ForeColor = SystemColors.WindowFrame;
             MainText.Location = new Point(12, 99);
             MainText.Name = "MainText";
-            MainText.Size = new Size(485, 156);
+            MainText.Size = new Size(485, 190);
             MainText.TabIndex = 4;
             MainText.Text = "";
+            // 
+            // AddElectronicBTN
+            // 
+            AddElectronicBTN.Font = new Font("Segoe UI", 16F);
+            AddElectronicBTN.Location = new Point(10, 295);
+            AddElectronicBTN.Name = "AddElectronicBTN";
+            AddElectronicBTN.Size = new Size(124, 43);
+            AddElectronicBTN.TabIndex = 5;
+            AddElectronicBTN.Text = "Agregar e";
+            AddElectronicBTN.UseVisualStyleBackColor = true;
+            AddElectronicBTN.Click += AddElectronicBTN_Click;
+            // 
+            // RemElectronicBTN
+            // 
+            RemElectronicBTN.Font = new Font("Segoe UI", 16F);
+            RemElectronicBTN.Location = new Point(140, 295);
+            RemElectronicBTN.Name = "RemElectronicBTN";
+            RemElectronicBTN.Size = new Size(124, 43);
+            RemElectronicBTN.TabIndex = 6;
+            RemElectronicBTN.Text = "Eliminar e";
+            RemElectronicBTN.UseVisualStyleBackColor = true;
+            RemElectronicBTN.Click += RemElectronicBTN_Click;
+            // 
+            // ModUnitsBTN
+            // 
+            ModUnitsBTN.Font = new Font("Segoe UI", 16F);
+            ModUnitsBTN.Location = new Point(503, 99);
+            ModUnitsBTN.Name = "ModUnitsBTN";
+            ModUnitsBTN.Size = new Size(228, 43);
+            ModUnitsBTN.TabIndex = 7;
+            ModUnitsBTN.Text = "Modificar Unidades";
+            ModUnitsBTN.UseVisualStyleBackColor = true;
+            ModUnitsBTN.Click += ModUnitsBTN_Click;
+            // 
+            // ModPriceBTN
+            // 
+            ModPriceBTN.Font = new Font("Segoe UI", 16F);
+            ModPriceBTN.Location = new Point(503, 148);
+            ModPriceBTN.Name = "ModPriceBTN";
+            ModPriceBTN.Size = new Size(228, 43);
+            ModPriceBTN.TabIndex = 8;
+            ModPriceBTN.Text = "Modificar Precio";
+            ModPriceBTN.UseVisualStyleBackColor = true;
+            ModPriceBTN.Click += ModPriceBTN_Click;
+            // 
+            // ModNameBTN
+            // 
+            ModNameBTN.Font = new Font("Segoe UI", 16F);
+            ModNameBTN.Location = new Point(503, 197);
+            ModNameBTN.Name = "ModNameBTN";
+            ModNameBTN.Size = new Size(228, 43);
+            ModNameBTN.TabIndex = 9;
+            ModNameBTN.Text = "Modificar Nombre";
+            ModNameBTN.UseVisualStyleBackColor = true;
+            ModNameBTN.Click += ModNameBTN_Click;
+            // 
+            // ModPropertiesBTN
+            // 
+            ModPropertiesBTN.Font = new Font("Segoe UI", 16F);
+            ModPropertiesBTN.Location = new Point(503, 246);
+            ModPropertiesBTN.Name = "ModPropertiesBTN";
+            ModPropertiesBTN.Size = new Size(228, 43);
+            ModPropertiesBTN.TabIndex = 10;
+            ModPropertiesBTN.Text = "Modificar Propiedades";
+            ModPropertiesBTN.UseVisualStyleBackColor = true;
+            ModPropertiesBTN.Click += ModPropertiesBTN_Click;
             // 
             // Electronics_Inventory_Menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(ModPropertiesBTN);
+            Controls.Add(ModNameBTN);
+            Controls.Add(ModPriceBTN);
+            Controls.Add(ModUnitsBTN);
+            Controls.Add(RemElectronicBTN);
+            Controls.Add(AddElectronicBTN);
             Controls.Add(MainText);
             Controls.Add(ElectronicsCMBOX);
             Controls.Add(ElectronicsLBL);
@@ -111,5 +189,11 @@
         private Label ElectronicsLBL;
         private ComboBox ElectronicsCMBOX;
         private RichTextBox MainText;
+        private Button AddElectronicBTN;
+        private Button RemElectronicBTN;
+        private Button ModUnitsBTN;
+        private Button ModPriceBTN;
+        private Button ModNameBTN;
+        private Button ModPropertiesBTN;
     }
 }

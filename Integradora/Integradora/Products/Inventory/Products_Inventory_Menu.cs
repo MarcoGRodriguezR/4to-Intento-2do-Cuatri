@@ -22,9 +22,6 @@ namespace Integradora.Products.Inventory
             InitializeComponent();
             SetVisibleCore(true);
 
-
-            _Products_Manager.SetUpDatabase();
-
             UpdateProductsCMBOX();
         }
         public void UpdateProductsCMBOX()

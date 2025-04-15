@@ -31,7 +31,7 @@
             ProductsBTN = new Button();
             ElectronicsBTN = new Button();
             ErrorBTN = new Button();
-            Inventory = new Button();
+            InventoryBTN = new Button();
             SuspendLayout();
             // 
             // ProductsBTN
@@ -68,27 +68,27 @@
             ErrorBTN.UseVisualStyleBackColor = true;
             ErrorBTN.Click += Error_Click;
             // 
-            // Inventory
+            // InventoryBTN
             // 
-            Inventory.Font = new Font("Segoe UI", 24F);
-            Inventory.Location = new Point(12, 85);
-            Inventory.Name = "Inventory";
-            Inventory.Size = new Size(201, 59);
-            Inventory.TabIndex = 3;
-            Inventory.Text = "Inventario";
-            Inventory.UseVisualStyleBackColor = true;
-            Inventory.Click += Inventory_Click;
+            InventoryBTN.Font = new Font("Segoe UI", 24F);
+            InventoryBTN.Location = new Point(12, 85);
+            InventoryBTN.Name = "InventoryBTN";
+            InventoryBTN.Size = new Size(201, 59);
+            InventoryBTN.TabIndex = 3;
+            InventoryBTN.Text = "Inventario";
+            InventoryBTN.UseVisualStyleBackColor = true;
+            InventoryBTN.Click += InventoryBTN_Click;
             // 
-            // MenuPrincipal
+            // MasterMind
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(Inventory);
+            Controls.Add(InventoryBTN);
             Controls.Add(ErrorBTN);
             Controls.Add(ElectronicsBTN);
             Controls.Add(ProductsBTN);
-            Name = "MenuPrincipal";
+            Name = "MasterMind";
             Text = "Menu Principal";
             ResumeLayout(false);
         }
@@ -98,6 +98,6 @@
         private Button ProductsBTN;
         private Button ElectronicsBTN;
         private Button ErrorBTN;
-        private Button Inventory;
+        private Button InventoryBTN;
     }
 }

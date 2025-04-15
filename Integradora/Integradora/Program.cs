@@ -37,7 +37,7 @@ internal static class Program
     /// </summary>
     /// <param name="text"></param>
     /// <returns>true if it can, false if it can't</returns>
-    public static bool TestTextToINT(ref TextBox text)
+    public static bool TestTextToINT(ref TextBox text, string defaultTo = "")
     {
         try
         {
@@ -46,7 +46,7 @@ internal static class Program
         }
         catch
         {
-            text.Text = "";
+            text.Text = defaultTo;
             return false;
         }
     }
@@ -55,7 +55,7 @@ internal static class Program
     /// </summary>
     /// <param name="text"></param>
     /// <returns>true if it can, false if it can't</returns>
-    public static bool TestTextToDOUBLE(ref TextBox text)
+    public static bool TestTextToDOUBLE(ref TextBox text, string defaultTo = "")
     {
         try
         {
@@ -64,7 +64,25 @@ internal static class Program
         }
         catch
         {
-            text.Text = "";
+            text.Text = defaultTo;
+            return false;
+        }
+    }
+    /// <summary>
+    /// Used to check if <paramref name="text"/> can be converted into <see cref="decimal"/>
+    /// </summary>
+    /// <param name="text"></param>
+    /// <returns>true if it can, false if it can't</returns>
+    public static bool TestTextToDECIMAL(ref TextBox text, string defaultTo = "")
+    {
+        try
+        {
+            decimal test = decimal.Parse(text.Text);
+            return true;
+        }
+        catch
+        {
+            text.Text = defaultTo;
             return false;
         }
     }

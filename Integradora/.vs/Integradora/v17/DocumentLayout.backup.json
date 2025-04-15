@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\electronics\\inventory\\electronics_inventory_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|solutionrelative:integradora\\electronics\\inventory\\electronics_inventory_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|solutionrelative:integradora\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\_generics\\manager\\generics_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|solutionrelative:integradora\\_generics\\manager\\generics_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\loadingscreenbecausewedefinitelyneedthat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|solutionrelative:integradora\\loadingscreenbecausewedefinitelyneedthat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\loadingscreenbecausewedefinitelyneedthat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|solutionrelative:integradora\\loadingscreenbecausewedefinitelyneedthat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|solutionrelative:integradora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|solutionrelative:integradora\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\products\\manager\\products_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|solutionrelative:integradora\\products\\manager\\products_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\electronics\\manager\\electronics_capacitor_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|solutionrelative:integradora\\electronics\\manager\\electronics_capacitor_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\electronics\\manager\\electronics_resistance_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|solutionrelative:integradora\\electronics\\manager\\electronics_resistance_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|solutionrelative:integradora\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integradora.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\electronics\\inventory\\electronics_inventory_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -42,110 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\MenuPrincipal.cs",
-              "RelativeDocumentMoniker": "Integradora\\MenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\MenuPrincipal.cs",
-              "RelativeToolTip": "Integradora\\MenuPrincipal.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAWwEQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T15:13:13.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Products_Manager.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Products\\Manager\\Products_Manager.cs",
-              "RelativeDocumentMoniker": "Integradora\\Products\\Manager\\Products_Manager.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Products\\Manager\\Products_Manager.cs",
-              "RelativeToolTip": "Integradora\\Products\\Manager\\Products_Manager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABGAAAAAAAAAA==",
+              "Title": "MasterMind.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\MasterMind.cs",
+              "RelativeDocumentMoniker": "Integradora\\MasterMind.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\MasterMind.cs [Design]",
+              "RelativeToolTip": "Integradora\\MasterMind.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T15:10:43.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T18:05:37.776Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Electronics_Inventory_Menu.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Electronics\\Inventory\\Electronics_Inventory_Menu.cs",
-              "RelativeDocumentMoniker": "Integradora\\Electronics\\Inventory\\Electronics_Inventory_Menu.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Electronics\\Inventory\\Electronics_Inventory_Menu.cs",
-              "RelativeToolTip": "Integradora\\Electronics\\Inventory\\Electronics_Inventory_Menu.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAIwFEAAAAlAAAAAAAAAA==",
+              "Title": "MasterMind.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\MasterMind.cs",
+              "RelativeDocumentMoniker": "Integradora\\MasterMind.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\MasterMind.cs",
+              "RelativeToolTip": "Integradora\\MasterMind.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwEMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:58:52.968Z",
+              "WhenOpened": "2025-04-15T17:51:36.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "LoadingScreenBecauseWeDefinitelyNeedThat.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\LoadingScreenBecauseWeDefinitelyNeedThat.cs",
+              "RelativeDocumentMoniker": "Integradora\\LoadingScreenBecauseWeDefinitelyNeedThat.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\LoadingScreenBecauseWeDefinitelyNeedThat.cs",
+              "RelativeToolTip": "Integradora\\LoadingScreenBecauseWeDefinitelyNeedThat.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:14:19.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Program.cs",
               "RelativeDocumentMoniker": "Integradora\\Program.cs",
               "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Program.cs",
               "RelativeToolTip": "Integradora\\Program.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAWwGYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwB8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:57:57.015Z",
+              "WhenOpened": "2025-04-15T17:13:36.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "LoadingScreenBecauseWeDefinitelyNeedThat.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\LoadingScreenBecauseWeDefinitelyNeedThat.cs",
+              "RelativeDocumentMoniker": "Integradora\\LoadingScreenBecauseWeDefinitelyNeedThat.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\LoadingScreenBecauseWeDefinitelyNeedThat.cs [Design]",
+              "RelativeToolTip": "Integradora\\LoadingScreenBecauseWeDefinitelyNeedThat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:10:57.392Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Electronics_Inventory_Menu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Electronics\\Inventory\\Electronics_Inventory_Menu.cs",
               "RelativeDocumentMoniker": "Integradora\\Electronics\\Inventory\\Electronics_Inventory_Menu.cs",
               "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Electronics\\Inventory\\Electronics_Inventory_Menu.cs [Design]",
               "RelativeToolTip": "Integradora\\Electronics\\Inventory\\Electronics_Inventory_Menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:57:52.709Z",
+              "WhenOpened": "2025-04-15T16:05:59.555Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Electronics_Resistance_Manager.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Electronics\\Manager\\Electronics_Resistance_Manager.cs",
-              "RelativeDocumentMoniker": "Integradora\\Electronics\\Manager\\Electronics_Resistance_Manager.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Electronics\\Manager\\Electronics_Resistance_Manager.cs",
-              "RelativeToolTip": "Integradora\\Electronics\\Manager\\Electronics_Resistance_Manager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:56:16.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Generics_Manager.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\_Generics\\Manager\\Generics_Manager.cs",
-              "RelativeDocumentMoniker": "Integradora\\_Generics\\Manager\\Generics_Manager.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\_Generics\\Manager\\Generics_Manager.cs",
-              "RelativeToolTip": "Integradora\\_Generics\\Manager\\Generics_Manager.cs",
-              "ViewState": "AgIAACEBAAAAAAAAAAAWwDEBAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:53:01.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Electronics_Capacitor_Manager.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Electronics\\Manager\\Electronics_Capacitor_Manager.cs",
-              "RelativeDocumentMoniker": "Integradora\\Electronics\\Manager\\Electronics_Capacitor_Manager.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Electronics\\Manager\\Electronics_Capacitor_Manager.cs",
-              "RelativeToolTip": "Integradora\\Electronics\\Manager\\Electronics_Capacitor_Manager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA0AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:51:33.841Z",
-              "EditorCaption": ""
             }
           ]
         }

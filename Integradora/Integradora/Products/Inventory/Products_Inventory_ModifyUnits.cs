@@ -20,7 +20,7 @@ namespace Integradora.Products.Inventory
         private Product Product;
         private Products_Inventory_Menu Main;
 
-        public Products_Inventory_ModifyUnits(Products_Manager.Product product, Products_Inventory_Menu main)
+        public Products_Inventory_ModifyUnits(Product product, Products_Inventory_Menu main)
         {
             InitializeComponent();
             Main = main;

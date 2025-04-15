@@ -8,6 +8,7 @@ namespace Integradora
     /// </summary>
     public partial class MasterMind : Form
     {
+        #region Section Shenanigans
         /// <summary>
         /// Used to know what section we are using currently
         /// </summary>
@@ -27,11 +28,44 @@ namespace Integradora
             ElectronicsBTN.Enabled = SectionActual != Sections.Electronics;
             ErrorBTN.Enabled = SectionActual != Sections.Error;
         }
+        #endregion
 
+        #region Loading Shenanigans
+        private LoadingScreenBecauseWeDefinitelyNeedThat LoadingScreen;
+
+        private System.Windows.Forms.Timer updateTimer = new();
+        private void InitializeUpdateTimer()
+        {
+            updateTimer.Interval = 1; // interval in milliseconds (e.g., 100ms = 10 times/sec)
+
+            updateTimer.Tick += LoadingScreen.UpdateMethod;
+            updateTimer.Start();
+        }
+        #endregion
         public MasterMind()
         {
             InitializeComponent();
+            SetVisibleCore(true);
+            LoadingScreen = new(this);
+            InitializeUpdateTimer();
+
+            ElectronicsBTN.Enabled = false;
+            ErrorBTN.Enabled = false;
+            ProductsBTN.Enabled = false;
+
+            InventoryBTN.Enabled = false;
+        }
+        public void AllClear()
+        {
             UpdateWhichButtonIsSelected();
+
+            ElectronicsBTN.Enabled = true;
+            ErrorBTN.Enabled = true;
+            ProductsBTN.Enabled = true;
+
+            InventoryBTN.Enabled = true;
+
+            updateTimer.Stop();
         }
 
         #region _Click Functions
@@ -56,7 +90,7 @@ namespace Integradora
         }
         #endregion
 
-        private void Inventory_Click(object sender, EventArgs e)
+        private void InventoryBTN_Click(object sender, EventArgs e)
         {
             object menu;
 

@@ -1,10 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Electronics\Inventory\Electronics_Capacitor_ModifyCapacitance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Electronics\Inventory\Electronics_Generic_ModifyPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Electronics\Inventory\Electronics_Generic_ModifyUnits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Electronics\Inventory\Electronics_Generic_ModifyName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Electronics\Inventory\Electronics_Generic_RemElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Electronics\Inventory\Electronics_Inventory_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MenuPrincipal.cs">
+    <Compile Update="Electronics\Inventory\Electronics_Resistance_AddElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Electronics\Inventory\Electronics_Resistance_ModifyResistance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MasterMind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoadingScreenBecauseWeDefinitelyNeedThat.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Products\Inventory\Products_Inventory_AddProduct.cs">
