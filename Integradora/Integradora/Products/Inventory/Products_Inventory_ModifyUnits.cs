@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using Integradora.Products.Manager;
-using static Integradora.Products.Manager.Products_Manager;
-using static Integradora.Program;
+using Integrator.Products.Manager;
+using static Integrator.Products.Manager.Products_Manager;
+using static Integrator.Program;
 
-namespace Integradora.Products.Inventory
+namespace Integrator.Products.Inventory
 {
     public partial class Products_Inventory_ModifyUnits : Form
     {

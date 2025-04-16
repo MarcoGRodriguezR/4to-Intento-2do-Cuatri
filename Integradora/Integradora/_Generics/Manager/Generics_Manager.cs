@@ -1,5 +1,5 @@
-﻿using Integradora.Electronics.Manager;
-using Integradora.Products.Manager;
+﻿using Integrator.Electronics.Manager;
+using Integrator.Products.Manager;
 using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using static Integradora.Program;
+using static Integrator.Program;
 
-using static Integradora.Products.Manager.Products_Manager;
+using static Integrator.Products.Manager.Products_Manager;
 
-using static Integradora.Electronics.Manager.Electronics_Resistance_Manager;
-using static Integradora.Electronics.Manager.Electronics_Capacitor_Manager;
+using static Integrator.Electronics.Manager.Electronics_Resistance_Manager;
+using static Integrator.Electronics.Manager.Electronics_Capacitor_Manager;
 
-namespace Integradora._Generics.Manager
+namespace Integrator._Generics.Manager
 {
     /// <summary>
     /// Base class for Managers of data base thingies
@@ -54,6 +54,7 @@ namespace Integradora._Generics.Manager
             public int ID = id;
             public int Units = units;
             public int Sales = sales;
+            #region Price
             public class PriceHelper(double price)
             {
                 public double ActualNumberInsteadOfString = price;
@@ -63,12 +64,21 @@ namespace Integradora._Generics.Manager
 
                     if (ActualNumberInsteadOfString == (int)ActualNumberInsteadOfString) text += $"${ActualNumberInsteadOfString}.00";
                     else if (ActualNumberInsteadOfString.ToString().Split('.', 2)[1].Length == 1) text += $"${ActualNumberInsteadOfString}0";
+                    else if (ActualNumberInsteadOfString.ToString().Split('.', 2)[1].Length > 2)
+                    {
+                        string theFirstHalf = ((int)ActualNumberInsteadOfString).ToString();
+                        string theOtherHalf = ActualNumberInsteadOfString.ToString().Split('.', 2)[1];
+
+                        text = $"${theFirstHalf}.{theOtherHalf[0]}{theOtherHalf[1]}";
+                    }
                     else text += $"${ActualNumberInsteadOfString}";
 
                     return text;
                 }
             } public PriceHelper Price = new(price);
+            #endregion
 
+            #region ScientificNotationHelper
             public class ScientificNotationHelper(decimal value, char symbol)
             {
                 public decimal Value = value;
@@ -139,7 +149,7 @@ namespace Integradora._Generics.Manager
                     }
                     #endregion
 
-                    #region
+                    #region Negative Prefixes
                     else
                     {
                         string textBUTOBSELETE = Value.ToString();
@@ -205,8 +215,22 @@ namespace Integradora._Generics.Manager
                     return $"{amount}{prefix}{Symbol}";
                 }
             }
+            #endregion
 
             #region ToString
+            public string OneLinerToString()
+            {
+                string text = $"{Name}, {Price} ";
+
+                switch (Units == 1)
+                {
+                    case true: text += "(1 unidad)"; break;
+                    case false: text += $"({Units} unidades)"; break;
+                }
+
+                return $"{text} {OneLinerToStringExtras()}";
+            } 
+            protected virtual string OneLinerToStringExtras() => "";
             public override string ToString()
             {
                 string text = $"Nombre: {Name}(ID: {ID}) \n";
@@ -255,6 +279,15 @@ namespace Integradora._Generics.Manager
             }
             protected virtual Dictionary<string, object> GetDataForInsertExtras() => [];
             #endregion
+
+            #region Parse
+            public static Element Parse(Product product) => new(product.Name, product.Units, product.Sales, product.ID, product.Price.ActualNumberInsteadOfString);
+
+            #region Electronics
+            public static Element Parse(Resistance resistance) => new(resistance.Name, resistance.Units, resistance.Sales, resistance.ID, resistance.Price.ActualNumberInsteadOfString);
+            public static Element Parse(Capacitor capacitor) => new(capacitor.Name, capacitor.Units, capacitor.Sales, capacitor.ID, capacitor.Price.ActualNumberInsteadOfString);
+            #endregion
+            #endregion
         }
         /// <summary>
         /// Used to clear your list of elements
@@ -262,7 +295,7 @@ namespace Integradora._Generics.Manager
         protected abstract void ClearElementsList();
         #endregion
 
-         #region Update Database
+        #region Update Database
         public void UpdateDataBase()
         {
             if (!File.Exists(DataBaseManager.DB_Path)) throw new Exception();
@@ -343,16 +376,16 @@ namespace Integradora._Generics.Manager
             switch (TableName)
             {
                 case TableNames.Products:
-                    Product product = new("Papas a la belgica", sales: 1, price: 4);
+                    Product product = new("Papas a la belgica", 3, sales: 1, price: 4);
                     DataBaseManager.InsertInto(TableName, product.GetDataForInsert());
-                    product = new("Suizas Papas", units: 1, price: 3.99);
+                    product = new("Suizas Papas", 1, price: 3.99);
                     DataBaseManager.InsertInto(TableName, product.GetDataForInsert());
-                    product = new("Franco-Papa", sales: 2, price: 1.9);
+                    product = new("Franco-Papa", 3, sales: 2, price: 1.9);
                     DataBaseManager.InsertInto(TableName, product.GetDataForInsert());
                     break;
 
                 case TableNames.Electronics.Resistances:
-                    Resistance resitance = new("Resistencia mini", units: 1, resistance: 1);
+                    Resistance resitance = new("Resistencia mini", 3,  resistance: 1);
                     DataBaseManager.InsertInto(TableName, resitance.GetDataForInsert());
                     resitance = new("Resistencia chica", resistance: 5);
                     DataBaseManager.InsertInto(TableName, resitance.GetDataForInsert());

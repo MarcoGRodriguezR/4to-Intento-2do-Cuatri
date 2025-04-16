@@ -1221,9 +1221,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Integradora.csproj",
-      "projectName": "Integradora",
-      "projectPath": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Integradora.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Integrator.csproj",
+      "projectName": "Integrator",
+      "projectPath": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Integrator.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\obj\\",
       "projectStyle": "PackageReference",

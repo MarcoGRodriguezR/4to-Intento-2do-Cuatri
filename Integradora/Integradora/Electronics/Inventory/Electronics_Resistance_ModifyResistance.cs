@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using static Integradora._Generics.Manager.Generics_Manager;
-using static Integradora.Program;
-using static Integradora.Electronics.Manager.Electronics_Resistance_Manager;
+using static Integrator._Generics.Manager.Generics_Manager;
+using static Integrator.Program;
+using static Integrator.Electronics.Manager.Electronics_Resistance_Manager;
 using System.Drawing.Text;
 
-namespace Integradora.Electronics.Inventory
+namespace Integrator.Electronics.Inventory
 {
     public partial class Electronics_Resistance_ModifyResistance : Form
     {

@@ -10,13 +10,13 @@ using System.Windows.Forms;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Xml.Linq;
 
-using Integradora.Products.Inventory;
-using Integradora.Products.Manager;
+using Integrator.Products.Inventory;
+using Integrator.Products.Manager;
 
-using static Integradora.Program;
-using static Integradora.Products.Manager.Products_Manager;
+using static Integrator.Program;
+using static Integrator.Products.Manager.Products_Manager;
 
-namespace Integradora.Products.Inventory
+namespace Integrator.Products.Inventory
 {
     public partial class Products_Inventory_AddProduct : Form
     {

@@ -1,4 +1,4 @@
-﻿namespace Integradora.Products.Inventory
+﻿namespace Integrator.Products.Inventory
 {
     partial class Products_Inventory_RemoveProduct
     {

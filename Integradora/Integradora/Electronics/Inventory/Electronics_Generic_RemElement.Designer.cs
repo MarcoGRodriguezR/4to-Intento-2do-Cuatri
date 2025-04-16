@@ -1,4 +1,4 @@
-﻿namespace Integradora.Electronics.Inventory
+﻿namespace Integrator.Electronics.Inventory
 {
     partial class Electronics_Generic_RemElement
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RpNq8fy5MHM=",
+  "dgSpecHash": "EVMAylpTzz8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Integradora.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Integrator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

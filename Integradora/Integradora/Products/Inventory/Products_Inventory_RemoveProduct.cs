@@ -1,4 +1,4 @@
-﻿using Integradora.Products.Inventory;
+﻿using Integrator.Products.Inventory;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,12 +9,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using Integradora.Products.Manager;
+using Integrator.Products.Manager;
 
-using static Integradora.Program;
-using static Integradora.Products.Manager.Products_Manager;
+using static Integrator.Program;
+using static Integrator.Products.Manager.Products_Manager;
 
-namespace Integradora.Products.Inventory
+namespace Integrator.Products.Inventory
 {
     public partial class Products_Inventory_RemoveProduct : Form
     {

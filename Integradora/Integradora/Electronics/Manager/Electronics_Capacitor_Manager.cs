@@ -1,13 +1,13 @@
-﻿using Integradora._Generics.Manager;
+﻿using Integrator._Generics.Manager;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using static Integradora.Program;
+using static Integrator.Program;
 
-namespace Integradora.Electronics.Manager
+namespace Integrator.Electronics.Manager
 {
     public class Electronics_Capacitor_Manager : Generics_Manager
     {

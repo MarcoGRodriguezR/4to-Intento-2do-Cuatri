@@ -1,4 +1,4 @@
-﻿namespace Integradora
+﻿namespace Integrator
 {
     partial class LoadingScreenBecauseWeDefinitelyNeedThat
     {

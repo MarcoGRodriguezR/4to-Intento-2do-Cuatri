@@ -1,6 +1,6 @@
-﻿using Integradora.Products.Manager;
+﻿using Integrator.Products.Manager;
 
-namespace Integradora.Products.Inventory
+namespace Integrator.Products.Inventory
 {
     partial class Products_Inventory_Menu
     {

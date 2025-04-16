@@ -1,7 +1,9 @@
-using Integradora.Products.Inventory;
-using Integradora.Electronics.Inventory;
+using Integrator.Products.Inventory;
+using Integrator.Electronics.Inventory;
+using Integrator.Products.SalePoint;
+using Integrator.Electronics.SalePoint;
 
-namespace Integradora
+namespace Integrator
 {
     /// <summary>
     /// The Main Menu, but Master Mind sounds cooler
@@ -54,6 +56,7 @@ namespace Integradora
             ProductsBTN.Enabled = false;
 
             InventoryBTN.Enabled = false;
+            SalePointBTN.Enabled = false;
         }
         public void AllClear()
         {
@@ -61,9 +64,9 @@ namespace Integradora
 
             ElectronicsBTN.Enabled = true;
             ErrorBTN.Enabled = true;
-            ProductsBTN.Enabled = true;
 
             InventoryBTN.Enabled = true;
+            SalePointBTN.Enabled = true;
 
             updateTimer.Stop();
         }
@@ -92,18 +95,25 @@ namespace Integradora
 
         private void InventoryBTN_Click(object sender, EventArgs e)
         {
-            object menu;
-
-            switch(SectionActual)
+            switch (SectionActual)
             {
                 case Sections.Products:
-                    menu = new Products_Inventory_Menu();
+                    _ = new Products_Inventory_Menu();
                     break;
                 case Sections.Electronics:
-                    menu = new Electronics_Inventory_Menu();
+                    _ = new Electronics_Inventory_Menu();
                     break;
                 default:
                     throw new Exception($"{SectionActual} has no entry for this switch");
+            }
+        }
+        private void SalePointBTN_Click(object sender, EventArgs e)
+        {
+            switch (SectionActual)
+            {
+                case Sections.Products: _ = new Products_SalePoint_Menu(); break;
+                case Sections.Electronics: _ = new Electronics_SalePoint_Menu(); break;
+                default: throw new Exception($"{SectionActual} has no entry in this switch");
             }
         }
         #endregion

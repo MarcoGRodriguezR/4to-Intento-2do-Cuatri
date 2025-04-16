@@ -1,4 +1,4 @@
-﻿namespace Integradora
+﻿namespace Integrator
 {
     partial class MasterMind
     {
@@ -32,6 +32,7 @@
             ElectronicsBTN = new Button();
             ErrorBTN = new Button();
             InventoryBTN = new Button();
+            SalePointBTN = new Button();
             SuspendLayout();
             // 
             // ProductsBTN
@@ -73,17 +74,29 @@
             InventoryBTN.Font = new Font("Segoe UI", 24F);
             InventoryBTN.Location = new Point(12, 85);
             InventoryBTN.Name = "InventoryBTN";
-            InventoryBTN.Size = new Size(201, 59);
+            InventoryBTN.Size = new Size(282, 59);
             InventoryBTN.TabIndex = 3;
             InventoryBTN.Text = "Inventario";
             InventoryBTN.UseVisualStyleBackColor = true;
             InventoryBTN.Click += InventoryBTN_Click;
+            // 
+            // SalePointBTN
+            // 
+            SalePointBTN.Font = new Font("Segoe UI", 24F);
+            SalePointBTN.Location = new Point(12, 150);
+            SalePointBTN.Name = "SalePointBTN";
+            SalePointBTN.Size = new Size(282, 59);
+            SalePointBTN.TabIndex = 4;
+            SalePointBTN.Text = "Punto de Venta";
+            SalePointBTN.UseVisualStyleBackColor = true;
+            SalePointBTN.Click += SalePointBTN_Click;
             // 
             // MasterMind
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(SalePointBTN);
             Controls.Add(InventoryBTN);
             Controls.Add(ErrorBTN);
             Controls.Add(ElectronicsBTN);
@@ -99,5 +112,6 @@
         private Button ElectronicsBTN;
         private Button ErrorBTN;
         private Button InventoryBTN;
+        private Button SalePointBTN;
     }
 }

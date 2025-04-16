@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using Integradora.Products.Inventory;
+using Integrator.Products.Inventory;
 
-using static Integradora.Products.Manager.Products_Manager;
-using static Integradora.Program;
+using static Integrator.Products.Manager.Products_Manager;
+using static Integrator.Program;
 
-namespace Integradora.Products.Inventory
+namespace Integrator.Products.Inventory
 {
     public partial class Products_Inventory_Menu : Form
     {

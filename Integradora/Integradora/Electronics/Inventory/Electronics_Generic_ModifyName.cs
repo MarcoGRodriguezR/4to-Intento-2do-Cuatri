@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using static Integradora._Generics.Manager.Generics_Manager;
-using static Integradora.Products.Manager.Products_Manager;
-using static Integradora.Program;
+using static Integrator._Generics.Manager.Generics_Manager;
+using static Integrator.Products.Manager.Products_Manager;
+using static Integrator.Program;
 
-namespace Integradora.Electronics.Inventory
+namespace Integrator.Electronics.Inventory
 {
     public partial class Electronics_Generic_ModifyName : Form
     {

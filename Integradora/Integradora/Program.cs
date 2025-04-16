@@ -2,10 +2,10 @@ using System.Data.SQLite;
 using static System.Collections.Specialized.BitVector32;
 using System.Xml.Linq;
 
-using Integradora.Products.Manager;
-using Integradora.Electronics.Manager;
+using Integrator.Products.Manager;
+using Integrator.Electronics.Manager;
 
-namespace Integradora;
+namespace Integrator;
 internal static class Program
 {
     public static readonly Products_Manager _Products_Manager = new ();

@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using static Integradora.Program;
+using static Integrator.Program;
 
-namespace Integradora
+namespace Integrator
 {
     public partial class LoadingScreenBecauseWeDefinitelyNeedThat : Form
     {
@@ -48,7 +48,7 @@ namespace Integradora
             switch (CurrentState)
             {
                 case LoadingStates.PreTimerForFancyness:
-                    CounterMAX = ToSeconds(0.1);
+                    CounterMAX = ToSeconds(0.05);
                     Status.Text = "Cargando";
                     Progress.Value = 0;
 
@@ -84,7 +84,7 @@ namespace Integradora
 
                     break;
                 case LoadingStates.Finished:
-                    CounterMAX = ToSeconds(0.1);
+                    CounterMAX = ToSeconds(0.05);
                     Status.Text = "Finalizando";
 
                     if (Counter >= CounterMAX)

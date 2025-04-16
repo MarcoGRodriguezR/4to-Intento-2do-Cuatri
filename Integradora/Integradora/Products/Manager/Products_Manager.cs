@@ -9,11 +9,11 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Xml.Linq;
 using static System.Collections.Specialized.BitVector32;
 using static System.Net.Mime.MediaTypeNames;
-using Integradora._Generics.Manager;
+using Integrator._Generics.Manager;
 
-using static Integradora.Program;
+using static Integrator.Program;
 
-namespace Integradora.Products.Manager
+namespace Integrator.Products.Manager
 {
     public class Products_Manager : Generics_Manager
     {

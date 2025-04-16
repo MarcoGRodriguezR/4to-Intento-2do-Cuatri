@@ -25,6 +25,9 @@
     <Compile Update="Electronics\Inventory\Electronics_Resistance_ModifyResistance.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Electronics\SalePoint\Electronics_SalePoint_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MasterMind.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -47,6 +50,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Products\Inventory\Products_Inventory_RemoveProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Products\SalePoint\Products_SalePoint_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
