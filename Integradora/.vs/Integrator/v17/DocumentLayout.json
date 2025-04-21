@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\electronics\\salepoint\\electronics_salepoint_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|solutionrelative:integradora\\electronics\\salepoint\\electronics_salepoint_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|solutionrelative:integradora\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\electronics\\salepoint\\electronics_salepoint_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|solutionrelative:integradora\\electronics\\salepoint\\electronics_salepoint_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\products\\salepoint\\products_salepoint_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|solutionrelative:integradora\\products\\salepoint\\products_salepoint_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\_generics\\manager\\generics_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|solutionrelative:integradora\\_generics\\manager\\generics_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\products\\salepoint\\products_salepoint_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|solutionrelative:integradora\\products\\salepoint\\products_salepoint_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|c:\\users\\dell\\documents\\tareas\\2-do cuatrimestre\\integradora\\pruebas\\prueba4\\4to-intento-2do-cuatri\\integradora\\integradora\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32340F44-EE6B-41F8-9938-644CCFBC8FD8}|Integradora\\Integrator.csproj|solutionrelative:integradora\\mastermind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Generics_Manager.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\_Generics\\Manager\\Generics_Manager.cs",
-              "RelativeDocumentMoniker": "Integradora\\_Generics\\Manager\\Generics_Manager.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\_Generics\\Manager\\Generics_Manager.cs",
-              "RelativeToolTip": "Integradora\\_Generics\\Manager\\Generics_Manager.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAIwB8BAAAlAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MasterMind.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\MasterMind.cs",
+              "RelativeDocumentMoniker": "Integradora\\MasterMind.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\MasterMind.cs",
+              "RelativeToolTip": "Integradora\\MasterMind.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T22:54:26.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Products_SalePoint_Menu.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Products\\SalePoint\\Products_SalePoint_Menu.cs",
-              "RelativeDocumentMoniker": "Integradora\\Products\\SalePoint\\Products_SalePoint_Menu.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Products\\SalePoint\\Products_SalePoint_Menu.cs",
-              "RelativeToolTip": "Integradora\\Products\\SalePoint\\Products_SalePoint_Menu.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T22:52:56.651Z",
+              "WhenOpened": "2025-04-21T14:02:58.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Electronics_SalePoint_Menu.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Electronics\\SalePoint\\Electronics_SalePoint_Menu.cs",
-              "RelativeDocumentMoniker": "Integradora\\Electronics\\SalePoint\\Electronics_SalePoint_Menu.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Electronics\\SalePoint\\Electronics_SalePoint_Menu.cs",
-              "RelativeToolTip": "Integradora\\Electronics\\SalePoint\\Electronics_SalePoint_Menu.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDQAAABnAAAAAAAAAA==",
+              "Title": "MasterMind.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\MasterMind.cs",
+              "RelativeDocumentMoniker": "Integradora\\MasterMind.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\MasterMind.cs [Design]",
+              "RelativeToolTip": "Integradora\\MasterMind.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T22:49:17.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Electronics_SalePoint_Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Electronics\\SalePoint\\Electronics_SalePoint_Menu.cs",
-              "RelativeDocumentMoniker": "Integradora\\Electronics\\SalePoint\\Electronics_SalePoint_Menu.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Electronics\\SalePoint\\Electronics_SalePoint_Menu.cs [Design]",
-              "RelativeToolTip": "Integradora\\Electronics\\SalePoint\\Electronics_SalePoint_Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T22:47:32.664Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Products_SalePoint_Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Products\\SalePoint\\Products_SalePoint_Menu.cs",
-              "RelativeDocumentMoniker": "Integradora\\Products\\SalePoint\\Products_SalePoint_Menu.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Tareas\\2-do Cuatrimestre\\Integradora\\Pruebas\\Prueba4\\4to-Intento-2do-Cuatri\\Integradora\\Integradora\\Products\\SalePoint\\Products_SalePoint_Menu.cs [Design]",
-              "RelativeToolTip": "Integradora\\Products\\SalePoint\\Products_SalePoint_Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T22:48:27.841Z",
+              "WhenOpened": "2025-04-21T14:02:01.112Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -385,7 +385,7 @@ namespace Integrator._Generics.Manager
                     break;
 
                 case TableNames.Electronics.Resistances:
-                    Resistance resitance = new("Resistencia mini", 3,  resistance: 1);
+                    Resistance resitance = new("Resistencia mini", 3,  resistance: 1, price: 2.99);
                     DataBaseManager.InsertInto(TableName, resitance.GetDataForInsert());
                     resitance = new("Resistencia chica", resistance: 5);
                     DataBaseManager.InsertInto(TableName, resitance.GetDataForInsert());
@@ -396,7 +396,7 @@ namespace Integrator._Generics.Manager
                     break;
 
                 case TableNames.Electronics.Capacitors:
-                    Capacitor capacitor = new("Capacitor grande", capacitance: 1);
+                    Capacitor capacitor = new("Capacitor grande", units: 3, capacitance: 1, price: 3.02);
                     DataBaseManager.InsertInto(TableName, capacitor.GetDataForInsert());
                     capacitor = new("Capacitor mediano", capacitance: (decimal)0.001);
                     DataBaseManager.InsertInto(TableName, capacitor.GetDataForInsert());

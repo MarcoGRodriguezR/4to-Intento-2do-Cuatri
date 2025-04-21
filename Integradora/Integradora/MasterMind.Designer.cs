@@ -67,6 +67,7 @@
             ErrorBTN.TabIndex = 2;
             ErrorBTN.Text = "Error";
             ErrorBTN.UseVisualStyleBackColor = true;
+            ErrorBTN.Visible = false;
             ErrorBTN.Click += Error_Click;
             // 
             // InventoryBTN
@@ -95,7 +96,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(447, 222);
             Controls.Add(SalePointBTN);
             Controls.Add(InventoryBTN);
             Controls.Add(ErrorBTN);
