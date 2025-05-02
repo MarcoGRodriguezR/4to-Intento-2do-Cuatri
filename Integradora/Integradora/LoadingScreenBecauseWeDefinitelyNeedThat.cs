@@ -45,46 +45,87 @@ namespace Integrator
         /// </summary>
         public void UpdateMethod(object sender, EventArgs e)
         {
+            double timer = 0.05;
+
             switch (CurrentState)
             {
                 case LoadingStates.PreTimerForFancyness:
-                    CounterMAX = ToSeconds(0.05);
+                    CounterMAX = ToSeconds(timer);
                     Status.Text = "Cargando";
                     Progress.Value = 0;
 
                     if (Counter >= CounterMAX)
                     {
                         CurrentState++;
+                        Progress.Value++;
                         Counter = 0;
                     }
                     else Counter++;
                     break;
                 case LoadingStates.Products:
                     Status.Text = "Cargando Productos";
-                    _Products_Manager.SetUpDatabase();
+                    CounterMAX = ToSeconds(timer);
                     
-                    Progress.Value++;
-                    CurrentState++;
+                    if (Counter is 0)
+                    {
+                        _Products_Manager.SetUpDatabase();
+                        Counter++;
+                    }
+                    else if (Counter < CounterMAX)
+                    {
+                        Counter++;
+                    }
+                    else
+                    {
+                        Progress.Value++;
+                        CurrentState++;
+                        Counter = 0;
+                    }
 
                     break;
                 case LoadingStates.Electronics_Resistances:
                     Status.Text = "Cargando Resistencias";
-                    _Resistance_Manager.SetUpDatabase();
+                    CounterMAX = ToSeconds(timer);
 
-                    Progress.Value++;
-                    CurrentState++;
+                    if (Counter is 0)
+                    {
+                        _Resistance_Manager.SetUpDatabase();
+                        Counter++;
+                    }
+                    else if (Counter < CounterMAX)
+                    {
+                        Counter++;
+                    }
+                    else
+                    {
+                        Progress.Value++;
+                        CurrentState++;
+                        Counter = 0;
+                    }
 
                     break;
                 case LoadingStates.Electronics_Capacitors:
                     Status.Text = "Cargando Capacitores";
-                    _Capacitor_Manager.SetUpDatabase();
+                    CounterMAX = ToSeconds(timer);
 
-                    Progress.Value++;
-                    CurrentState++;
+                    if (Counter is 0)
+                    {
+                        _Capacitor_Manager.SetUpDatabase();
+                        Counter++;
+                    }
+                    else if (Counter < CounterMAX)
+                    {
+                        Counter++;
+                    }
+                    else
+                    {
+                        CurrentState++;
+                        Counter = 0;
+                    }
 
                     break;
                 case LoadingStates.Finished:
-                    CounterMAX = ToSeconds(0.05);
+                    CounterMAX = ToSeconds(timer);
                     Status.Text = "Finalizando";
 
                     if (Counter >= CounterMAX)

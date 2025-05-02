@@ -348,7 +348,7 @@ namespace Integrator._Generics.Manager
                 SQLiteConnection.CreateFile(dbPath);
 
             // 2025 Apr 08: Delete this when Product inventory is made better
-            DataBaseManager.ExecuteNonQuery($"drop table if exists {TableName}");
+            //DataBaseManager.ExecuteNonQuery($"drop table if exists {TableName}");
 
             using SQLiteConnection connection = new(DataBaseManager.ConnectionString);
             connection.Open();
@@ -385,23 +385,31 @@ namespace Integrator._Generics.Manager
                     break;
 
                 case TableNames.Electronics.Resistances:
-                    Resistance resitance = new("Resistencia mini", 3,  resistance: 1, price: 2.99);
-                    DataBaseManager.InsertInto(TableName, resitance.GetDataForInsert());
-                    resitance = new("Resistencia chica", resistance: 5);
-                    DataBaseManager.InsertInto(TableName, resitance.GetDataForInsert());
-                    resitance = new("Resistencia mediana", resistance: 1000);
-                    DataBaseManager.InsertInto(TableName, resitance.GetDataForInsert());
-                    resitance = new("Resistencia grande", resistance: 50000);
-                    DataBaseManager.InsertInto(TableName, resitance.GetDataForInsert());
+                    // https://www.steren.com.mx/catalogsearch/result/?q=resistencias
+
+                    List<Resistance> resistances = [];
+                    int[] numbers = [1, 100, 120, 150, 330, 470, 560, 4700, 10000, 150000];
+
+                    foreach (int i in numbers)
+                    {
+                        Element.ScientificNotationHelper ohms = new(i, 'Ω');
+                        resistances.Add(new($"Resistencia de {ohms}", 5, 0, resistance: i, price: 2.0));
+                    }
+
+                    foreach(Resistance resistance in resistances) DataBaseManager.InsertInto(TableName, resistance.GetDataForInsert());
                     break;
 
                 case TableNames.Electronics.Capacitors:
-                    Capacitor capacitor = new("Capacitor grande", units: 3, capacitance: 1, price: 3.02);
-                    DataBaseManager.InsertInto(TableName, capacitor.GetDataForInsert());
-                    capacitor = new("Capacitor mediano", capacitance: (decimal)0.001);
-                    DataBaseManager.InsertInto(TableName, capacitor.GetDataForInsert());
-                    capacitor = new("Capacitor chico", capacitance: (decimal)0.000001);
-                    DataBaseManager.InsertInto(TableName, capacitor.GetDataForInsert());
+                    List<Capacitor> capacitors = [];
+                    var faradays = new (decimal Capacitance, double Price)[] { ((decimal)0.000001, 3), ((decimal)0.000047, 3), ((decimal)0.00047, 4), ((decimal)0.001, 15)};
+
+                    foreach (var i in faradays)
+                    {
+                        Element.ScientificNotationHelper toyotas = new(i.Capacitance, 'F');
+                        capacitors.Add(new($"Capacitor de {toyotas}", 5, 0, capacitance: i.Capacitance, price: i.Price));
+                    }
+
+                    foreach (Capacitor capacitor in capacitors) DataBaseManager.InsertInto(TableName, capacitor.GetDataForInsert());
                     break;
 
             }
